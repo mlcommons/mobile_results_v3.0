@@ -1,0 +1,18 @@
+{
+        "System": "Lenovo X13s",
+        "Processor Name": "Qualcomm Snapdragon 8CX Gen 3 Compute Platform",
+        
+        "CPU_Type_1": "4x Qualcomm Kryo(TM) Prime Cores: up to 3.0 Ghz",
+        "CPU_Type_2": "4x Qualcomm Kryo(TM) Performance Cores: up to 2.4 Ghz",
+        
+        "Graphics": "Qualcomm Adreno(TM) GPU",
+
+        "Accelerator_type": "Qualcomm Hexagon Processor"
+        
+        "DRAM": "LPDDr4X 32GB",
+        
+        "OS Version": "Windows 11 Pro 10.0.22623",
+        "TFlite Version": "2.8.0" + patches for native Windows on ARM,
+        "TFLite delegate types": "none",
+        "vendor SDK": "Qualcomm Neural Processing SDK v2.7.0 for Windows"
+}

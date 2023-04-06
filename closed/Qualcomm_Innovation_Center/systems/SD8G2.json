@@ -1,0 +1,19 @@
+{
+        "System": "Xiaomi X13 Pro",
+        "Processor Name": "Qualcomm Snapdragon 8 Gen 2 Mobile Platform",
+        
+        "CPU_Type_1": "1x Qualcomm Kryo(TM) Prime Core: up to 3.2 Ghz",
+        "CPU_Type_2": "4x Qualcomm Kryo(TM) Performance Cores: up to 2.8 Ghz",
+        "CPU_Type_3": "3x Qualcomm Kryo(TM) Efficiency Cores: up to 2.0 Ghz",
+        
+        "Graphics": "Qualcomm Adreno(TM) GPU",
+
+        "Accelerator_type": "Qualcomm Hexagon Processor",
+        
+        "DRAM": "2xLPDDr5 12GB",
+        
+        "OS Version": "Android 13, MiUI 14.0.6",
+        "TFlite Version": "2.8.0",
+        "TFLite delegate types": "none",
+        "vendor SDK": "Qualcomm Neural Processing SDK v2.7.0"
+}

@@ -1,0 +1,93 @@
+2023-03-02 15:20:41.182519: I flutter/cpp/binary/main.cc:134] Using External backend
+2023-03-02 15:20:41.190109: I flutter/cpp/backends/external.cc:190] Using backend allocator
+2023-03-02 15:20:41.190194: I mobile_back_qti/cpp/backend_qti/qti_c.cc:50] QTI HW supported check: model: C:\Dropbox\mlperf_models\snusr_htp.dlc, manufacturer: 
+2023-03-02 15:20:41.190269: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:20:41.190303: I mobile_back_qti/cpp/backend_qti/qti_c.cc:58] Is QTI SOC: 1
+2023-03-02 15:20:41.190347: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:20:41.193129: I flutter/cpp/utils.cc:140] benchmark_setting:
+2023-03-02 15:20:41.193154: I flutter/cpp/utils.cc:141]   accelerator: snpe_dsp
+2023-03-02 15:20:41.193166: I flutter/cpp/utils.cc:142]   framework: SNPE
+2023-03-02 15:20:41.193176: I flutter/cpp/utils.cc:144]   custom_setting: bg_load true
+2023-03-02 15:20:41.193186: I flutter/cpp/utils.cc:148] SettingsList.benchmark_setting:
+2023-03-02 15:20:41.193195: I flutter/cpp/utils.cc:149]   accelerator: snpe_dsp
+2023-03-02 15:20:41.193203: I flutter/cpp/utils.cc:151]   framework: SNPE
+2023-03-02 15:20:41.193211: I flutter/cpp/utils.cc:155]   custom_setting: bg_load true
+2023-03-02 15:20:41.196626: I flutter/cpp/backends/external.cc:190] Using backend allocator
+2023-03-02 15:20:41.196675: I mobile_back_qti/cpp/backend_qti/qti_c.cc:75] CONFIGS count = 2
+2023-03-02 15:20:41.196691: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[num_threads] = 4
+2023-03-02 15:20:41.196701: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[bg_load] = true
+2023-03-02 15:20:41.196768: I C:\b_cache1\execroot\mlperf_app\mobile_back_qti\cpp\backend_qti\mlperf_helper.h:122] Config: delegate: snpe_dsp | scenario:  | output:  | isTfLite: 0 | batchSize: 1 | useSNPE: 1 | bgLoad: 1 | loadOffTime: 2 | loadOnTime_: 100 | inputBufferType: 1 | outputBufferType: 0 | perfProfile: burst | useIonBuffer: 1 | acceleratorName: HTP
+2023-03-02 15:20:41.196914: I mobile_back_qti/cpp/backend_qti/qti_c.cc:126] snpe_version: 4264
+2023-03-02 15:20:41.196981: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:20:41.197009: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:372] Using 1 dsp 0 aip 0 gpu and 0 cpu
+2023-03-02 15:20:41.336775: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:131] runtime 0 is available on this platform with UnsignedPD
+2023-03-02 15:20:41.336916: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:20:41.336945: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:276] using SNPE. numInits: 1
+2023-03-02 15:20:41.338269: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:20:41.338336: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:20:41.387681: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:20:41.387760: E mobile_back_qti/cpp/backend_qti/rpcmem.cc:33] Can't open rpc lib
+2023-03-02 15:20:41.402758: I mobile_back_qti/cpp/backend_qti/qti_c.cc:143] SNPE build completed successfully
+2023-03-02 15:20:41.402859: I flutter/cpp/binary/main.cc:317] Using SNU SR dataset
+2023-03-02 15:20:41.405368: E flutter/cpp/datasets/snu_sr.cc:62] Failed to list all the ground truth files in provided path. Only measuring performance.
+================================================
+MLPerf Results Summary
+================================================
+SUT name : snpe
+Scenario : SingleStream
+Mode     : PerformanceOnly
+90th percentile latency (ns) : 22863500
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+Early Stopping Result:
+ * Processed at least 64 queries (2824).
+ * Would discard 244 highest latency queries.
+ * Early stopping 90th percentile estimate: 23037600
+ * Early stopping 99th percentile estimate: 25945200
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 47.05
+QPS w/o loadgen overhead        : 47.07
+
+Min latency (ns)                : 17128800
+Max latency (ns)                : 33116100
+Mean latency (ns)               : 21246876
+50.00 percentile latency (ns)   : 21297300
+90.00 percentile latency (ns)   : 22863500
+95.00 percentile latency (ns)   : 24404500
+97.00 percentile latency (ns)   : 24634800
+99.00 percentile latency (ns)   : 25088900
+99.90 percentile latency (ns)   : 29531000
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 1000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1000
+max_query_count : 0
+qsl_rng_seed : 10003631887983097364
+sample_index_rng_seed : 17183018601990103738
+schedule_rng_seed : 12134888396634371638
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 321
+
+No warnings encountered during test.
+
+No errors encountered during test.
+2023-03-02 15:21:42.365249: I flutter/cpp/binary/main.cc:374] Accuracy: N/A
+2023-03-02 15:21:42.365283: I mobile_back_qti/cpp/backend_qti/qti_c.cc:168] Deleting Backend

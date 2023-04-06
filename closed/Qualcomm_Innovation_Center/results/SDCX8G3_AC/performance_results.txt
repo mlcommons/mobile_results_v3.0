@@ -1,0 +1,23 @@
+#######image_classification###### 
+90th percentile latency (ns) : 584900
+Result is : VALID
+QPS w/o loadgen overhead        : 1722.01
+#######object_detection###### 
+90th percentile latency (ns) : 1156100
+Result is : VALID
+QPS w/o loadgen overhead        : 870.82
+#######image_segmentation###### 
+90th percentile latency (ns) : 2033800
+Result is : VALID
+QPS w/o loadgen overhead        : 502.38
+#######language_understanding###### 
+90th percentile latency (ns) : 6132000
+Result is : VALID
+QPS w/o loadgen overhead        : 165.89
+#######super_resolution###### 
+90th percentile latency (ns) : 17923800
+Result is : VALID
+QPS w/o loadgen overhead        : 57.45
+#######image_classification_offline###### 
+Result is : VALID
+Samples per second: 3143.27

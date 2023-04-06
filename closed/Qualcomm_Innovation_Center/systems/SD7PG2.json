@@ -1,0 +1,19 @@
+{
+        "System": "Qualcomm Reference Device",
+        "Processor Name": "Qualcomm Snapdragon 7 Plus Gen 2 Mobile Platform",
+
+        "CPU_Type_1": "1x Qualcomm Kryo(TM) Prime Core: up to 2.91 Ghz",
+        "CPU_Type_2": "3x Qualcomm Kryo(TM) Performance Cores: up to 2.49 Ghz",
+        "CPU_Type_3": "4x Qualcomm Kryo(TM) Efficiency Cores: up to 1.8 Ghz",
+
+        "Graphics": "Qualcomm Adreno(TM) GPU",
+
+        "Accelerator type": "Qualcomm Hexagon Processor",
+        
+        "DRAM": "2xLPDDr5 8GB",
+        
+        "OS Version": "Android 13",
+        "TFlite Version": "2.8.0",
+        "TFLite delegate types": "none",
+        "vendor SDK": "Qualcomm Neural Processing SDK v2.7.0"
+}

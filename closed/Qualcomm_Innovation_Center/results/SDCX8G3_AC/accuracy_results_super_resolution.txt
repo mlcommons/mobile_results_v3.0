@@ -1,0 +1,37 @@
+2023-03-02 09:23:10.148627: I flutter/cpp/binary/main.cc:134] Using External backend
+2023-03-02 09:23:10.153648: I flutter/cpp/backends/external.cc:190] Using backend allocator
+2023-03-02 09:23:10.153714: I mobile_back_qti/cpp/backend_qti/qti_c.cc:50] QTI HW supported check: model: C:\Dropbox\mlperf_models\snusr_htp.dlc, manufacturer: 
+2023-03-02 09:23:10.153760: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:23:10.153782: I mobile_back_qti/cpp/backend_qti/qti_c.cc:58] Is QTI SOC: 1
+2023-03-02 09:23:10.153806: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:23:10.155611: I flutter/cpp/utils.cc:140] benchmark_setting:
+2023-03-02 09:23:10.155631: I flutter/cpp/utils.cc:141]   accelerator: snpe_dsp
+2023-03-02 09:23:10.155639: I flutter/cpp/utils.cc:142]   framework: SNPE
+2023-03-02 09:23:10.155647: I flutter/cpp/utils.cc:144]   custom_setting: bg_load true
+2023-03-02 09:23:10.155654: I flutter/cpp/utils.cc:148] SettingsList.benchmark_setting:
+2023-03-02 09:23:10.155660: I flutter/cpp/utils.cc:149]   accelerator: snpe_dsp
+2023-03-02 09:23:10.155665: I flutter/cpp/utils.cc:151]   framework: SNPE
+2023-03-02 09:23:10.155671: I flutter/cpp/utils.cc:155]   custom_setting: bg_load true
+2023-03-02 09:23:10.157965: I flutter/cpp/backends/external.cc:190] Using backend allocator
+2023-03-02 09:23:10.158000: I mobile_back_qti/cpp/backend_qti/qti_c.cc:75] CONFIGS count = 2
+2023-03-02 09:23:10.158011: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[num_threads] = 4
+2023-03-02 09:23:10.158020: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[bg_load] = true
+2023-03-02 09:23:10.158063: I C:\b_cache1\execroot\mlperf_app\mobile_back_qti\cpp\backend_qti\mlperf_helper.h:122] Config: delegate: snpe_dsp | scenario:  | output:  | isTfLite: 0 | batchSize: 1 | useSNPE: 1 | bgLoad: 1 | loadOffTime: 2 | loadOnTime_: 100 | inputBufferType: 1 | outputBufferType: 0 | perfProfile: burst | useIonBuffer: 1 | acceleratorName: HTP
+2023-03-02 09:23:10.158177: I mobile_back_qti/cpp/backend_qti/qti_c.cc:126] snpe_version: 4264
+2023-03-02 09:23:10.158216: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:23:10.158232: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:372] Using 1 dsp 0 aip 0 gpu and 0 cpu
+2023-03-02 09:23:10.250933: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:131] runtime 0 is available on this platform with UnsignedPD
+2023-03-02 09:23:10.251009: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:23:10.251025: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:276] using SNPE. numInits: 1
+2023-03-02 09:23:10.251654: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:23:10.251677: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:23:10.286974: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:23:10.287012: E mobile_back_qti/cpp/backend_qti/rpcmem.cc:33] Can't open rpc lib
+2023-03-02 09:23:10.293948: I mobile_back_qti/cpp/backend_qti/qti_c.cc:143] SNPE build completed successfully
+2023-03-02 09:23:10.294019: I flutter/cpp/binary/main.cc:317] Using SNU SR dataset
+
+No warnings encountered during test.
+
+No errors encountered during test.
+2023-03-02 09:23:14.928653: I flutter/cpp/binary/main.cc:374] Accuracy: 33.48 dB
+2023-03-02 09:23:14.928696: I mobile_back_qti/cpp/backend_qti/qti_c.cc:168] Deleting Backend

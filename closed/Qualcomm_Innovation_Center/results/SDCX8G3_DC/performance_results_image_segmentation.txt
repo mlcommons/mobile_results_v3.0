@@ -1,0 +1,99 @@
+2023-03-02 15:08:37.260189: I flutter/cpp/binary/main.cc:134] Using External backend
+2023-03-02 15:08:37.268798: I flutter/cpp/backends/external.cc:190] Using backend allocator
+2023-03-02 15:08:37.268880: I mobile_back_qti/cpp/backend_qti/qti_c.cc:50] QTI HW supported check: model: C:\Dropbox\mlperf_models\mobile_mosaic_htp.dlc, manufacturer: 
+2023-03-02 15:08:37.268950: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:08:37.268986: I mobile_back_qti/cpp/backend_qti/qti_c.cc:58] Is QTI SOC: 1
+2023-03-02 15:08:37.269029: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:08:37.271761: I flutter/cpp/utils.cc:140] benchmark_setting:
+2023-03-02 15:08:37.271787: I flutter/cpp/utils.cc:141]   accelerator: snpe_dsp
+2023-03-02 15:08:37.271799: I flutter/cpp/utils.cc:142]   framework: SNPE
+2023-03-02 15:08:37.271810: I flutter/cpp/utils.cc:144]   custom_setting: input_buffer_type uint_8
+2023-03-02 15:08:37.271820: I flutter/cpp/utils.cc:144]   custom_setting: bg_load true
+2023-03-02 15:08:37.271829: I flutter/cpp/utils.cc:144]   custom_setting: output_buffer_type int_32
+2023-03-02 15:08:37.271839: I flutter/cpp/utils.cc:148] SettingsList.benchmark_setting:
+2023-03-02 15:08:37.271847: I flutter/cpp/utils.cc:149]   accelerator: snpe_dsp
+2023-03-02 15:08:37.271855: I flutter/cpp/utils.cc:151]   framework: SNPE
+2023-03-02 15:08:37.271863: I flutter/cpp/utils.cc:155]   custom_setting: input_buffer_type uint_8
+2023-03-02 15:08:37.271871: I flutter/cpp/utils.cc:155]   custom_setting: bg_load true
+2023-03-02 15:08:37.271880: I flutter/cpp/utils.cc:155]   custom_setting: output_buffer_type int_32
+2023-03-02 15:08:37.275159: I flutter/cpp/backends/external.cc:190] Using backend allocator
+2023-03-02 15:08:37.275210: I mobile_back_qti/cpp/backend_qti/qti_c.cc:75] CONFIGS count = 4
+2023-03-02 15:08:37.275226: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[num_threads] = 4
+2023-03-02 15:08:37.275238: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[input_buffer_type] = uint_8
+2023-03-02 15:08:37.275247: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[bg_load] = true
+2023-03-02 15:08:37.275256: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[output_buffer_type] = int_32
+2023-03-02 15:08:37.275310: I C:\b_cache1\execroot\mlperf_app\mobile_back_qti\cpp\backend_qti\mlperf_helper.h:122] Config: delegate: snpe_dsp | scenario:  | output:  | isTfLite: 0 | batchSize: 1 | useSNPE: 1 | bgLoad: 1 | loadOffTime: 2 | loadOnTime_: 100 | inputBufferType: 1 | outputBufferType: 2 | perfProfile: burst | useIonBuffer: 1 | acceleratorName: HTP
+2023-03-02 15:08:37.275462: I mobile_back_qti/cpp/backend_qti/qti_c.cc:126] snpe_version: 4264
+2023-03-02 15:08:37.275523: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:08:37.275547: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:372] Using 1 dsp 0 aip 0 gpu and 0 cpu
+2023-03-02 15:08:37.404789: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:131] runtime 0 is available on this platform with UnsignedPD
+2023-03-02 15:08:37.404922: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:08:37.404944: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:276] using SNPE. numInits: 1
+2023-03-02 15:08:37.406119: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:08:37.406162: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:08:37.478401: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 15:08:37.478440: E mobile_back_qti/cpp/backend_qti/rpcmem.cc:33] Can't open rpc lib
+2023-03-02 15:08:37.478710: I mobile_back_qti/cpp/backend_qti/qti_c.cc:143] SNPE build completed successfully
+2023-03-02 15:08:37.478739: I flutter/cpp/binary/main.cc:291] Using ADE20K dataset
+2023-03-02 15:08:37.486033: W flutter/cpp/datasets/ade20k.cc:59] Failed to list all the ground truth files in provided path. Only measuring performance.
+================================================
+MLPerf Results Summary
+================================================
+SUT name : snpe
+Scenario : SingleStream
+Mode     : PerformanceOnly
+90th percentile latency (ns) : 2568300
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+Early Stopping Result:
+ * Processed at least 64 queries (26148).
+ * Would discard 2501 highest latency queries.
+ * Early stopping 90th percentile estimate: 2579600
+ * Early stopping 99th percentile estimate: 3278600
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 435.77
+QPS w/o loadgen overhead        : 436.54
+
+Min latency (ns)                : 1911000
+Max latency (ns)                : 19495400
+Mean latency (ns)               : 2290727
+50.00 percentile latency (ns)   : 2202500
+90.00 percentile latency (ns)   : 2568300
+95.00 percentile latency (ns)   : 2717800
+97.00 percentile latency (ns)   : 2793700
+99.00 percentile latency (ns)   : 3156300
+99.90 percentile latency (ns)   : 8566800
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 1000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1000
+max_query_count : 0
+qsl_rng_seed : 10003631887983097364
+sample_index_rng_seed : 17183018601990103738
+schedule_rng_seed : 12134888396634371638
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 635
+
+No warnings encountered during test.
+
+No errors encountered during test.
+2023-03-02 15:09:40.190932: I flutter/cpp/binary/main.cc:374] Accuracy: N/A
+2023-03-02 15:09:40.191004: I mobile_back_qti/cpp/backend_qti/qti_c.cc:168] Deleting Backend

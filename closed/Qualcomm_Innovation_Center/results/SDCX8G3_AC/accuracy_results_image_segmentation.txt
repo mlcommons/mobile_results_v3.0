@@ -1,0 +1,43 @@
+2023-03-02 09:07:18.151854: I flutter/cpp/binary/main.cc:134] Using External backend
+2023-03-02 09:07:18.156351: I flutter/cpp/backends/external.cc:190] Using backend allocator
+2023-03-02 09:07:18.156410: I mobile_back_qti/cpp/backend_qti/qti_c.cc:50] QTI HW supported check: model: C:\Dropbox\mlperf_models\mobile_mosaic_htp.dlc, manufacturer: 
+2023-03-02 09:07:18.156453: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:07:18.156474: I mobile_back_qti/cpp/backend_qti/qti_c.cc:58] Is QTI SOC: 1
+2023-03-02 09:07:18.156499: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:07:18.158328: I flutter/cpp/utils.cc:140] benchmark_setting:
+2023-03-02 09:07:18.158350: I flutter/cpp/utils.cc:141]   accelerator: snpe_dsp
+2023-03-02 09:07:18.158362: I flutter/cpp/utils.cc:142]   framework: SNPE
+2023-03-02 09:07:18.158371: I flutter/cpp/utils.cc:144]   custom_setting: input_buffer_type uint_8
+2023-03-02 09:07:18.158378: I flutter/cpp/utils.cc:144]   custom_setting: bg_load true
+2023-03-02 09:07:18.158385: I flutter/cpp/utils.cc:144]   custom_setting: output_buffer_type int_32
+2023-03-02 09:07:18.158393: I flutter/cpp/utils.cc:148] SettingsList.benchmark_setting:
+2023-03-02 09:07:18.158399: I flutter/cpp/utils.cc:149]   accelerator: snpe_dsp
+2023-03-02 09:07:18.158404: I flutter/cpp/utils.cc:151]   framework: SNPE
+2023-03-02 09:07:18.158410: I flutter/cpp/utils.cc:155]   custom_setting: input_buffer_type uint_8
+2023-03-02 09:07:18.158417: I flutter/cpp/utils.cc:155]   custom_setting: bg_load true
+2023-03-02 09:07:18.158423: I flutter/cpp/utils.cc:155]   custom_setting: output_buffer_type int_32
+2023-03-02 09:07:18.160551: I flutter/cpp/backends/external.cc:190] Using backend allocator
+2023-03-02 09:07:18.160591: I mobile_back_qti/cpp/backend_qti/qti_c.cc:75] CONFIGS count = 4
+2023-03-02 09:07:18.160604: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[num_threads] = 4
+2023-03-02 09:07:18.160615: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[input_buffer_type] = uint_8
+2023-03-02 09:07:18.160622: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[bg_load] = true
+2023-03-02 09:07:18.160629: I mobile_back_qti/cpp/backend_qti/qti_c.cc:77] configs->[output_buffer_type] = int_32
+2023-03-02 09:07:18.160668: I C:\b_cache1\execroot\mlperf_app\mobile_back_qti\cpp\backend_qti\mlperf_helper.h:122] Config: delegate: snpe_dsp | scenario:  | output:  | isTfLite: 0 | batchSize: 1 | useSNPE: 1 | bgLoad: 1 | loadOffTime: 2 | loadOnTime_: 100 | inputBufferType: 1 | outputBufferType: 2 | perfProfile: burst | useIonBuffer: 1 | acceleratorName: HTP
+2023-03-02 09:07:18.160763: I mobile_back_qti/cpp/backend_qti/qti_c.cc:126] snpe_version: 4264
+2023-03-02 09:07:18.160800: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:07:18.160818: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:372] Using 1 dsp 0 aip 0 gpu and 0 cpu
+2023-03-02 09:07:18.252956: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:131] runtime 0 is available on this platform with UnsignedPD
+2023-03-02 09:07:18.253040: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:07:18.253056: I mobile_back_qti/cpp/backend_qti/qti_backend_helper.cc:276] using SNPE. numInits: 1
+2023-03-02 09:07:18.253667: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:07:18.253693: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:07:18.321984: I mobile_back_qti/cpp/backend_qti/soc_utility.cc:165] Soc ID: 435
+2023-03-02 09:07:18.322021: E mobile_back_qti/cpp/backend_qti/rpcmem.cc:33] Can't open rpc lib
+2023-03-02 09:07:18.322349: I mobile_back_qti/cpp/backend_qti/qti_c.cc:143] SNPE build completed successfully
+2023-03-02 09:07:18.322381: I flutter/cpp/binary/main.cc:291] Using ADE20K dataset
+
+No warnings encountered during test.
+
+No errors encountered during test.
+2023-03-02 09:08:12.905426: I flutter/cpp/binary/main.cc:374] Accuracy: 0.5796 mIoU
+2023-03-02 09:08:12.905452: I mobile_back_qti/cpp/backend_qti/qti_c.cc:168] Deleting Backend
